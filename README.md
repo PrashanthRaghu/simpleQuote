@@ -1,8 +1,8 @@
-# How to use Jquery Simple Quote - Prashanth Raghu
+# How to use Jquery Simple Quote
 
 
 ## Have you used Jquery Plugins before ?
-### Yes. Then skip directly into the example.
+### Yes. Download and use.
 
 ### No.
 Include Jquery and the plugin. < Please use the right folder structure. >
