@@ -9,6 +9,7 @@ Include Jquery and the plugin. < Please use the right folder structure. >
 ``` html
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.simpleQuote.js"></script>	
+```
 
 Add the quotes/attributions.
 ```
@@ -27,10 +28,12 @@ Add the quotes/attributions.
 			</ul>
 </div>
 
+```
+
 Start the carousel.
 ```html
 	$("#simpleQuote").simpleQuote( { speed : 5000 } , { includeAuthor : true } );
-
+```
 
 
 
