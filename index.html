@@ -1,0 +1,54 @@
+<DOCTYPE html>
+	<html>
+		
+		<!-- 
+			There is no damn license on this. Use it however you want to.
+			Adding it to your website ?? Send me a message on twitter, it 
+			can light up my day.
+		-->
+
+		<meta name="title" content="Jquery SimpleQuote | An easy way to embed quotes on your website."> 
+		<meta name="description" content="A Jquery plugin to add quotes to your website."> 
+		<meta name="author"	content="Prashanth Raghu | http://twitter.com/prashanthraghu">
+
+		<head>
+
+			<title> Jquery SimpleQuote | An easy way to embed quotes on your website.</title>
+			<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+			<link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
+			<link href='http://fonts.googleapis.com/css?family=Ribeye+Marrow' rel='stylesheet' type='text/css'>
+
+			<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+			<script type="text/javascript" src="js/jquery.simpleQuote.js"></script>	
+
+		</head>
+
+		<body>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$("#simpleQuote").simpleQuote( { speed : 5000 } , { includeAuthor : true } );
+				});
+			</script>
+
+			<div id="container">
+				<ul id="simpleQuote">
+					<li id="display"> </li>	
+					
+					<li author="Chanakya"> Before you start some work, always ask yourself three questions - Why am I doing it, What the results might be and Will I be successful. Only when you think deeply and find satisfactory answers to these questions, go ahead. </li>
+
+					<li author="DV Gundappa"> Life is a Horse driven cart, Fate its driver. You are the horse, Passengers - as allotted by God. Sometimes rides to a wedding, sometimes to the graveyard. On stumbling, there is always the earth.  </li>
+
+					<li author="Srinivasa Ramanujan"> An equation means nothing to me unless it expresses a thought of God.  </li>	
+
+					<li author="Patanjali">  Undisturbed calmness of mind is attained by cultivating friendliness toward the happy, compassion for the unhappy, delight in the virtuous, and indifference toward the wicked. </li>
+
+				</ul>
+			</div>
+
+			<div class="footer">
+				Jquery SimpleQuote | A simple way to add quotes/attributions on your website. Designed by Prashanth Raghu | <a href="https://github.com/prashanthraghu/simpleQuote/"> GitHub </a>
+			</div>
+
+		</body>
+
+	</html>
